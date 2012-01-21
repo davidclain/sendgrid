@@ -134,7 +134,7 @@ module SendGrid
   end
 
   # only override the appropriate methods for the current ActionMailer version
-  if ActionMailer::Base.respond_to?(:mail)
+  if ::ActionMailer::Base.respond_to?(:mail)
 
     protected
 
