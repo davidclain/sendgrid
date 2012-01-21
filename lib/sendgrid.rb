@@ -1,4 +1,6 @@
 require 'json'
+require 'rubygems'
+require 'action_mailer'
 
 module SendGrid
 
